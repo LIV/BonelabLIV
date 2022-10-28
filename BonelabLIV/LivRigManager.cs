@@ -19,6 +19,8 @@ namespace BonelabLIV
 
     public static void Create(RigManager rigManager)
     {
+      if (rigManager.GetComponent<LivRigManager>()) return;
+      
       var instance = rigManager.gameObject.AddComponent<LivRigManager>();
       instance._rigManager = rigManager;
     }
