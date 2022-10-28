@@ -1,7 +1,5 @@
 # LIV for BONELAB
 
-![image](https://user-images.githubusercontent.com/3955124/175017135-2f45eadd-9800-4875-9262-dcfcdfe14cda.png)
-
 Adds limited [**LIV**](https://store.steampowered.com/app/755540/LIV/) support to Bonelab. Supports using LIV for controlling an extra camera (third person, selfie camera, smoothed first person, etc).
 
 **Does not currently support Mixed Reality Capture or LIV avatars.**
@@ -16,6 +14,8 @@ If you don't have MelonLoader already, install it first:
 - Find your BONELAB exe (`BONELAB_Steam_Windows64.exe`). Be default this should be in `C:\Program Files (x86)\Steam\steamapps\common\BONELAB`.
 - Click "Install".
 
+![image](https://user-images.githubusercontent.com/3955124/198567268-47dc0f65-486a-4ecc-8323-0aadf4ffa5b9.png)
+
 Now install the actual LIV mod:
 
 - [Download the latest release zip](https://github.com/LIV/BonelabLIV/releases/latest/download/BonelabLIV.zip).
@@ -25,9 +25,9 @@ Now install the actual LIV mod:
 
 - Run the game with mods enabled. If you followed the instructions above to install MelonLoader, mods will be enabled if you start BONELAB as you normally would.
 - Launch the LIV PCVR Avatars tool.
-- Change capture to manual mode and select the BONELAB exe.
+- Change capture to manual mode and select the BONELAB exe (`BONELAB_Steam_Windows64.exe`).
 
-![image](https://user-images.githubusercontent.com/3955124/175768728-39843500-2ee9-4844-8f0c-a449b44a0502.png)
+![image](https://user-images.githubusercontent.com/3955124/198566858-49ac6b4d-b907-4833-bd21-84355e3e242e.png)
 
 ## Adjusting the LIV cameras
 
