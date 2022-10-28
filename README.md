@@ -31,7 +31,7 @@ Now install the actual LIV mod:
 
 ## Adjusting the LIV cameras
 
-BONELAB does this annoying thing where if the game gets unfocused (like if you open the SteamVR dashboard, or if you open the LIV menu), it will change the VR camera position. This makes it difficult to adjust the LIV cameras. I couldn't figure out a good way to automate this fix, so for now I just added a debug key that needs to be held while pausing the game.
+BONELAB does this annoying thing where if the game gets unfocused (like if you open the SteamVR dashboard, or if you open the LIV menu), it will change the VR camera position. This makes it difficult to adjust the LIV cameras. I couldn't figure out a good way to automate this fix, so for now I just added a debug key that toggles this behaviour on and off.
 
 - Outside VR, make sure the BONELAB window is focused (just click on the window).
 - Press L on your keyboard. This will make the player body tracking stop working.
