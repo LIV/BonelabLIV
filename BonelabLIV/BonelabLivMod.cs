@@ -115,7 +115,8 @@ namespace BonelabLIV
       var cameraParent = camera.transform.parent;
       var cameraPrefab = new GameObject("LivCameraPrefab");
       cameraPrefab.SetActive(false);
-      cameraPrefab.AddComponent<Camera>();
+      var cameraPrefabCamera = cameraPrefab.AddComponent<Camera>();
+      cameraPrefabCamera.CopyFrom(camera);
       cameraPrefab.transform.SetParent(cameraParent, false);
 
       _livObject = new GameObject("LIV");
