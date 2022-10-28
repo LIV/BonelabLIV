@@ -2,8 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/3955124/175017135-2f45eadd-9800-4875-9262-dcfcdfe14cda.png)
 
-[LIV mod for BONELAB in Thunderstore](https://bonelab.thunderstore.io/package/LIV/LIV/).
-
 Adds limited [**LIV**](https://store.steampowered.com/app/755540/LIV/) support to Bonelab. Supports using LIV for controlling an extra camera (third person, selfie camera, smoothed first person, etc).
 
 **Does not currently support Mixed Reality Capture or LIV avatars.**

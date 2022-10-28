@@ -1,4 +1,5 @@
 ﻿using System;
+using BoneworksLIV;
 using LIV.SDK.Unity;
 using MelonLoader;
 using UnhollowerRuntimeLib;
@@ -123,6 +124,7 @@ namespace BonelabLIV
       var liv = _livObject.AddComponent<Liv>();
       liv.HmdCamera = camera;
       liv.MrCameraPrefab = cameraPrefab.GetComponent<Camera>();
+      liv.SpectatorLayerMask = camera.cullingMask | 1 << (int) GameLayer.LivOnly;
       liv.Stage = cameraParent;
       liv.FixPostEffectsAlpha = true;
       _livObject.SetActive(true);

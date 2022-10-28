@@ -85,16 +85,20 @@
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\MelonLoader.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="ModThatIsNotMod">
-            <HintPath>$(MelonLoaderBaseDir)\Mods\ModThatIsNotMod.dll</HintPath>
-            <Private>False</Private>
+        <Reference Include="SLZ.Algorithms">
+          <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Algorithms.dll</HintPath>
+        </Reference>
+        <Reference Include="SLZ.Marrow">
+          <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Marrow.dll</HintPath>
+        </Reference>
+        <Reference Include="SLZ.Marrow.SDK">
+          <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Marrow.SDK.dll</HintPath>
+        </Reference>
+        <Reference Include="SLZ.Serialize">
+          <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Serialize.dll</HintPath>
         </Reference>
         <Reference Include="SteamVR">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SteamVR.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="SteamVR_Actions">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SteamVR_Actions.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="System" />
@@ -107,10 +111,6 @@
         </Reference>
         <Reference Include="UnhollowerBaseLib">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="Unity.Analytics.DataPrivacy">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\Unity.Analytics.DataPrivacy.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="Unity.TextMeshPro">
@@ -145,10 +145,6 @@
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.AudioModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="UnityEngine.BaselibModule">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.BaselibModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
         <Reference Include="UnityEngine.ClothModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.ClothModule.dll</HintPath>
             <Private>False</Private>
@@ -171,10 +167,6 @@
         </Reference>
         <Reference Include="UnityEngine.DirectorModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.DirectorModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="UnityEngine.FileSystemHttpModule">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.FileSystemHttpModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.GameCenterModule">
@@ -215,10 +207,6 @@
         </Reference>
         <Reference Include="UnityEngine.LocalizationModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.LocalizationModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="UnityEngine.Networking">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.Networking.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.ParticleSystemModule">
@@ -265,10 +253,6 @@
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.StreamingModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="UnityEngine.StyleSheetsModule">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
         <Reference Include="UnityEngine.SubstanceModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.SubstanceModule.dll</HintPath>
             <Private>False</Private>
@@ -281,24 +265,12 @@
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
-        <Reference Include="UnityEngine.TextCoreModule">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.TextCoreModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
         <Reference Include="UnityEngine.TextRenderingModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.TilemapModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.TilemapModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="UnityEngine.Timeline">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.Timeline.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="UnityEngine.TimelineModule">
-            <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.TimelineModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.TLSModule">
@@ -386,6 +358,7 @@
         <Compile Include="AssetManager.cs" />
         <Compile Include="BonelabLivMod.cs" />
         <Compile Include="BodyRendererManager.cs" />
+        <Compile Include="GameLayers.cs" />
         <Compile Include="LIV\LIV.cs" />
         <Compile Include="LIV\SDKBridge.cs" />
         <Compile Include="LIV\SDKFont.cs" />
