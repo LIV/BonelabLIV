@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonelabLIV", "BonelabLIV\BonelabLIV.csproj", "{A5EB24E0-C133-4435-B569-55E86FEB6022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5EB24E0-C133-4435-B569-55E86FEB6022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EB24E0-C133-4435-B569-55E86FEB6022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EB24E0-C133-4435-B569-55E86FEB6022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EB24E0-C133-4435-B569-55E86FEB6022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
