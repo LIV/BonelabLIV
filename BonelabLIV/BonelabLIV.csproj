@@ -17,13 +17,13 @@
         <DebugSymbols>true</DebugSymbols>
         <DebugType>full</DebugType>
         <Optimize>false</Optimize>
-        <OutputPath>$(MelonLoaderBaseDir)\Mods</OutputPath>
+        <OutputPath>$(MelonLoaderBaseDir)</OutputPath>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
         <DebugType>none</DebugType>
         <Optimize>true</Optimize>
         <ReleaseDirectory>bin\Release</ReleaseDirectory>
-        <OutputPath>$(ReleaseDirectory)\Mods</OutputPath>
+        <OutputPath>$(ReleaseDirectory)</OutputPath>
     </PropertyGroup>
     <Target Name="copy release files" AfterTargets="PostBuildEvent" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
         <ItemGroup>
@@ -87,15 +87,19 @@
         </Reference>
         <Reference Include="SLZ.Algorithms">
           <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Algorithms.dll</HintPath>
+          <Private>False</Private>
         </Reference>
         <Reference Include="SLZ.Marrow">
           <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Marrow.dll</HintPath>
+          <Private>False</Private>
         </Reference>
         <Reference Include="SLZ.Marrow.SDK">
           <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Marrow.SDK.dll</HintPath>
+          <Private>False</Private>
         </Reference>
         <Reference Include="SLZ.Serialize">
           <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SLZ.Serialize.dll</HintPath>
+          <Private>False</Private>
         </Reference>
         <Reference Include="SteamVR">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\SteamVR.dll</HintPath>
@@ -199,6 +203,7 @@
         </Reference>
         <Reference Include="UnityEngine.InputLegacyModule">
           <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+          <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.InputModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.InputModule.dll</HintPath>
