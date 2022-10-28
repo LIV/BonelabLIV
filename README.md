@@ -14,7 +14,7 @@ If you don't have MelonLoader already, install it first:
 - Find your BONELAB exe (`BONELAB_Steam_Windows64.exe`). Be default this should be in `C:\Program Files (x86)\Steam\steamapps\common\BONELAB`.
 - Click "Install".
 
-![image](https://user-images.githubusercontent.com/3955124/198567268-47dc0f65-486a-4ecc-8323-0aadf4ffa5b9.png)
+![image](https://user-images.githubusercontent.com/3955124/198569641-86786c09-9e06-4691-933c-1adf37b9a817.png)
 
 Now install the actual LIV mod:
 
