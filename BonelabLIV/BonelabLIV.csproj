@@ -360,7 +360,7 @@
     <ItemGroup>
         <Compile Include="AssetManager.cs" />
         <Compile Include="BonelabLivMod.cs" />
-        <Compile Include="PreventCameraChangingWhilePaused.cs" />
+        <Compile Include="LivRigManager.cs" />
         <Compile Include="GameLayers.cs" />
         <Compile Include="LIV\LIV.cs" />
         <Compile Include="LIV\SDKBridge.cs" />

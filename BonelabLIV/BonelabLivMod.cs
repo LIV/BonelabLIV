@@ -24,7 +24,7 @@ namespace BonelabLIV
       
       SetUpLiv();
       ClassInjector.RegisterTypeInIl2Cpp<Liv>();
-      ClassInjector.RegisterTypeInIl2Cpp<PreventCameraChangingWhilePaused>();
+      ClassInjector.RegisterTypeInIl2Cpp<LivRigManager>();
       OnCameraReady += SetUpLiv;
     }
 
