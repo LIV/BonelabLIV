@@ -197,6 +197,9 @@
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.IMGUIModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
+        <Reference Include="UnityEngine.InputLegacyModule">
+          <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine.InputModule">
             <HintPath>$(MelonLoaderBaseDir)\MelonLoader\Managed\UnityEngine.InputModule.dll</HintPath>
             <Private>False</Private>
@@ -357,7 +360,7 @@
     <ItemGroup>
         <Compile Include="AssetManager.cs" />
         <Compile Include="BonelabLivMod.cs" />
-        <Compile Include="BodyRendererManager.cs" />
+        <Compile Include="PreventCameraChangingWhilePaused.cs" />
         <Compile Include="GameLayers.cs" />
         <Compile Include="LIV\LIV.cs" />
         <Compile Include="LIV\SDKBridge.cs" />

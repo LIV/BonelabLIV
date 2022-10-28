@@ -26,5 +26,12 @@ namespace BonelabLIV
         hairMesh.gameObject.layer = (int) GameLayer.LivOnly;
       }
     }
+    
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(RigManager), "Awake")]
+    private static void CreateDebugKeys(RigManager __instance)
+    {
+      PreventCameraChangingWhilePaused.Create(__instance);
+    }
   }
 }
