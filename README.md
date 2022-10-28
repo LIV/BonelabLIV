@@ -25,13 +25,18 @@ Now install the actual LIV mod:
 
 - Run the game with mods enabled. If you followed the instructions above to install MelonLoader, mods will be enabled if you start BONELAB as you normally would.
 - Launch the LIV PCVR Avatars tool.
-- If you're in Auto mode, Bonelab should be automatically detected.
-
-![image](https://user-images.githubusercontent.com/3955124/175016312-ea9b4e38-27d7-4d5f-8c4f-1a66f093d8bf.png)
-
-- If auto-detection doesn't work, change to manual mode and select the Bonelab exe.
+- Change capture to manual mode and select the BONELAB exe.
 
 ![image](https://user-images.githubusercontent.com/3955124/175768728-39843500-2ee9-4844-8f0c-a449b44a0502.png)
+
+## Adjusting the LIV cameras
+
+BONELAB does this annoying thing where if the game gets unfocused (like if you open the SteamVR dashboard, or if you open the LIV menu), it will change the VR camera position. This makes it difficult to adjust the LIV cameras. I couldn't figure out a good way to automate this fix, so for now I just added a debug key that needs to be held while pausing the game.
+
+- Outside VR, make sure the BONELAB window is focused (just click on the window).
+- Press L on your keyboard. This will make the player body tracking stop working.
+- Open LIV or the SteamVR dashboard.
+- Once you're done, press L again to re-enable the player body behaviour.
 
 ## Known problems and reporting bugs
 

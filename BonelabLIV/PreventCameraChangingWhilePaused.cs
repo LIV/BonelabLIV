@@ -12,6 +12,7 @@ namespace BonelabLIV
   {
     private const KeyCode Key = KeyCode.L;
     private RigManager _rigManager;
+    private bool _state = true;
 
     public PreventCameraChangingWhilePaused(IntPtr ptr) : base(ptr)
     {
@@ -25,12 +26,22 @@ namespace BonelabLIV
 
     private void LateUpdate()
     {
-      if (Input.GetKey(Key))
+      if (Input.GetKeyDown(Key))
+      {
+        _state = !_state;
+        
+        // We only set it to enabled once.
+        // Just to make sure we're not overriding any game behaviour that tries to disable the rig manager.
+        if (_state)
+        {
+          _rigManager.enabled = true;
+        }
+      }
+
+      // We set it to disabled every update, to make sure we override anything in the game that sets it to enabled.
+      if (!_state)
       {
         _rigManager.enabled = false;
-      } else if (Input.GetKeyUp(Key))
-      {
-        _rigManager.enabled = true;
       }
     }
   }
