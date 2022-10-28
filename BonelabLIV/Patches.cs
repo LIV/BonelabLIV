@@ -17,7 +17,7 @@ namespace BonelabLIV
     }
     
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(SLZ.VRMK.Avatar), "Start")]
+    [HarmonyPatch(typeof(SLZ.VRMK.Avatar), "Awake")]
     private static void FixHair(SLZ.VRMK.Avatar __instance)
     {
       foreach (var hairMesh in __instance.hairMeshes)
