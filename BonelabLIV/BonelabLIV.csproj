@@ -386,7 +386,6 @@
         <Compile Include="AssetManager.cs" />
         <Compile Include="BonelabLivMod.cs" />
         <Compile Include="BodyRendererManager.cs" />
-        <Compile Include="GameLayer.cs" />
         <Compile Include="LIV\LIV.cs" />
         <Compile Include="LIV\SDKBridge.cs" />
         <Compile Include="LIV\SDKFont.cs" />

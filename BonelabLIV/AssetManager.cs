@@ -19,10 +19,9 @@ namespace BonelabLIV
     public AssetBundle LoadBundle(string assetName)
     {
       var bundlePath = Path.Combine(_assetsDirectory, assetName);
-      // var bundle = AssetBundle.LoadFromFile(Path.Combine(MelonLoader.MelonUtils.BaseDirectory, assetsDir, assetName));
       _bundle = AssetBundle.LoadFromFile(bundlePath);
 
-      MelonLogger.Msg("### yeah, Loading bundle from " + bundlePath);
+      MelonLogger.Msg("### Loading bundle from " + bundlePath);
 
       if (_bundle == null)
       {

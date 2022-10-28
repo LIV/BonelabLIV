@@ -52,8 +52,6 @@ namespace BonelabLIV
 
     private static void SetUpLiv()
     {
-      MelonLogger.Msg("### setting up LIV...");
-      
       // Since the mod manager doesn't copy stuff to the game directory,
       // we're loading the dll manually from the mod directory,
       // to make sure DllImport works as expected in the LIV SDK.
