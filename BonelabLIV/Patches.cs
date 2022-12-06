@@ -1,5 +1,6 @@
 ﻿using BoneworksLIV;
 using HarmonyLib;
+using SLZ.Bonelab;
 using SLZ.Rig;
 using UnityEngine;
 using UnityEngine.Rendering;
